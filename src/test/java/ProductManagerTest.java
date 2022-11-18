@@ -21,6 +21,7 @@ public class ProductManagerTest {
         Product[] expected = {book1, book2, phone1, phone2};
         Assertions.assertArrayEquals(actual, expected);
     }
+
     @Test
     public void testRepositoryRemoveById() {
         manager.add(book1);
@@ -108,7 +109,7 @@ public class ProductManagerTest {
         Product[] actual = manager.searchBy("Book");
         Product[] expected = {book1, book2};
 
-        Assertions.assertArrayEquals(actual,expected);
+        Assertions.assertArrayEquals(actual, expected);
     }
 }
 
