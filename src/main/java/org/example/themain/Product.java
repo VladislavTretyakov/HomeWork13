@@ -1,3 +1,5 @@
+package org.example.themain;
+
 public class Product {
     protected int id;
     protected String name;

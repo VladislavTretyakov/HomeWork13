@@ -1,3 +1,7 @@
+package org.example.themain;
+
+import org.example.themain.Product;
+
 public class Smartphone extends Product {
 
     private String producer;

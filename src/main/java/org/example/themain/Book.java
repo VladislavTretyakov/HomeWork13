@@ -1,3 +1,4 @@
+package org.example.themain;
 public class Book extends Product {
     private String author;
 

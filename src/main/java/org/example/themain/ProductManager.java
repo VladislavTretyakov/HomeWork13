@@ -1,3 +1,7 @@
+package org.example.themain;
+
+import org.example.repository.Repository;
+
 public class ProductManager {
     Repository repository;
 

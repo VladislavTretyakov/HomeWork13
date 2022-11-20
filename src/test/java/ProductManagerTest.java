@@ -1,3 +1,8 @@
+import org.example.repository.Repository;
+import org.example.themain.Book;
+import org.example.themain.Product;
+import org.example.themain.ProductManager;
+import org.example.themain.Smartphone;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,3 +1,6 @@
+package org.example.repository;
+import org.example.themain.Product;
+
 public class Repository {
     Product[] products = new Product[0];
 
